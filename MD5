@@ -1,0 +1,9 @@
+467620811d32c1e3d30fe0b006393a8b *DESCRIPTION
+b64baa37d44e7d15c88918c9faefdf59 *NAMESPACE
+96f46798fa4840267d05aae5b6690504 *R/LDA.boost.R
+685f1f6a492cfc78e750ba970c03a0b2 *R/boost.graph.R
+f5d02f684054902a52990a98bbbc9a78 *data/MedulloblastomaData.RData
+3e85772d4596a644adb4011ff97f2d76 *man/GUEST_package.Rd
+f2b98a661f1cbf7e9572e28f9f9811f8 *man/LDA.boost.Rd
+2d40b9e9e0643e9d6ec941eba001f633 *man/MedulloblastomaData.Rd
+3676469f77e48c6dcef0676f9949dbc4 *man/boost.graph.Rd
