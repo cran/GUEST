@@ -7,7 +7,7 @@
 \description{This function applies the linear discriminant function to do classification for multi-label responses. The precision matrix, or the inverse of the covariance matrix, in the linear discriminant function can be estimated by \code{w} in the function \code{boost.graph}. In addition,  error-prone covariates in  the linear discriminant function are addressed by the regression calibration.
 }
 \usage{
-LDA.boost(data, resp, theta)
+LDA.boost(data, resp, theta, sigma_e = 0.6,q = 0.8,lambda = 1, pi = 0.5)
 }
 
 \arguments{
@@ -20,6 +20,18 @@ LDA.boost(data, resp, theta)
   \item{theta}{
   The estimator of the precision matrix.
 }
+\item{sigma_e}{
+  The common value in the diagonal covariance matrix of the error for the classical measurement error model when \code{data} are continuous. The default value is 0.6.
+}
+  \item{q}{
+  The common value used to characterize misclassification for binary random variables. The default value is 0.8.
+}
+  \item{lambda}{
+  The parameter of the Poisson distribution, which is used to characterize error-prone count random variables. The default value is 1.
+  }
+  \item{pi}{
+  The probability in the Binomial distribution, which is used to characterize error-prone count random variables. The default value is 0.5.
+  }
 }
 
 \details{
